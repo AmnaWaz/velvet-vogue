@@ -1,0 +1,70 @@
+h6 {
+    font-size: 1.5em; 
+	font-family:Rogbold-regular;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25em; 
+	font-family:Rogbold-regular;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em; 
+	font-family:natalia-rosaline-sans-demo, sans-serif;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: natalia-rosaline-sans-demo, sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+header, footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 20%;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
